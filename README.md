@@ -11,4 +11,8 @@ Example:
 podman run -p 8080:80 -e OPNSENSE_API_KEY=<key> -e OPNSENSE_API_SECRET=<secret> -e OPNSENSE_API_HOSTNAME=<your router ip or hostname> hibby50/opnsense-unbound-dnsbl-toggle
 ```
 
-Prebuild container is here https://hub.docker.com/repository/docker/hibby50/opnsense-unbound-dnsbl-toggle
+Prebuilt container is here https://hub.docker.com/repository/docker/hibby50/opnsense-unbound-dnsbl-toggle
+
+Screenshot (not much to look at :))
+
+![Screenshot](Screenshot.png)
