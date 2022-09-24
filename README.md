@@ -12,3 +12,7 @@ podman run -p 8080:80 -e OPNSENSE_API_KEY=<key> -e OPNSENSE_API_SECRET=<secret> 
 ```
 
 Prebuild container is here https://hub.docker.com/repository/docker/hibby50/opnsense-unbound-dnsbl-toggle
+
+Screenshot (not much to look at :))
+
+![Screenshot](Screenshot.png)
