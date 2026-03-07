@@ -26,7 +26,7 @@ class OpensenseAdblock:
             status = "ENABLED" if row.get('enabled') == "1" else "DISABLED"
             blocklists[row.get('uuid')] = f"{status}: {row.get('description', 'No description')} - {row.get('%type')}"
 
-        return f"{"\n".join(blocklists.values())}\n\n"
+        return f"{'\n'.join(blocklists.values())}\n\n"
 
     def change_blocklist(self, enable, uuids):
         for uuid in uuids:
