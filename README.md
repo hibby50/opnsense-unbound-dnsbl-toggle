@@ -1,4 +1,10 @@
 # opnsense-unbound-dnsbl-toggle
+
+V2 Changes
+- Updated for Unbound OPNsense 26+ compatibility
+- Refactored code
+- OPNSENSE_API_HOSTNAME now requires http(s):// prefix
+
 A very basic flask webapp to enable and disable to Unbound adblock feature in OPNsense.
 
 Must set env vars for:
