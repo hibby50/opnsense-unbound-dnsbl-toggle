@@ -1,8 +1,6 @@
-From alpine:3.16.2
+From alpine:3.23.3
 
-RUN apk add python3 py3-pip
-
-RUN pip3 install flask requests waitress
+RUN apk add python3 py3-flask py3-requests py3-waitress
 
 RUN mkdir /app
 
