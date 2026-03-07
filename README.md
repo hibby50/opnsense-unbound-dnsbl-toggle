@@ -4,6 +4,7 @@ V2 Changes
 - Updated for Unbound OPNsense 26+ compatibility
 - Refactored code
 - OPNSENSE_API_HOSTNAME now requires http(s):// prefix
+- Change port to 8080
 
 A very basic flask webapp to enable and disable to Unbound adblock feature in OPNsense.
 
