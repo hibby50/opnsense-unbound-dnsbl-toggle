@@ -15,7 +15,7 @@ OPNSENSE_API_HOSTNAME
 
 Example:
 ```
-podman run -p 8080:80 -e OPNSENSE_API_KEY=<key> -e OPNSENSE_API_SECRET=<secret> -e OPNSENSE_API_HOSTNAME=<your router ip or hostname> hibby50/opnsense-unbound-dnsbl-toggle
+podman run -p 8080:8080 -e OPNSENSE_API_KEY=<key> -e OPNSENSE_API_SECRET=<secret> -e OPNSENSE_API_HOSTNAME=<your router ip or hostname> hibby50/opnsense-unbound-dnsbl-toggle
 ```
 
 Prebuilt container is here https://hub.docker.com/r/hibby50/opnsense-unbound-dnsbl-toggle
